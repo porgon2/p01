@@ -1,0 +1,13 @@
+<mvc:View controllerName="com.ui5flow.helloui5.controller.Demo" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns="sap.m">
+    <Page id="demo" showNavButton="false" title="{i18n>Demo.title}">
+        <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>Demo.tileHeader}" >
+            <tileContent>
+                <TileContent footer="{i18n>Demo.tilefooter}">
+                    <content>
+                        <ImageContent src="sap-icon://competitor" />
+                    </content>
+                </TileContent>
+            </tileContent>
+        </GenericTile>
+    </Page>
+</mvc:View>

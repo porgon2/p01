@@ -1,0 +1,8 @@
+<mvc:View
+	controllerName="com.ui5flow.helloui5.controller.App"	
+  	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	height="100%">
+	<App id="appHelloUi5" />
+
+</mvc:View>
